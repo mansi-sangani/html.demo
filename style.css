@@ -1,0 +1,29 @@
+span ,div{
+    background-color: green;
+    color :blue;
+}
+/*grater then mean green name is class inside pragraph (child selector)*/
+.green > p{
+    background-color: yellow;
+}
+/*descendant selector means any div inside anything  p ,heading etc defiend id or class name after space and your p*/
+#blue p {
+    background-color: silver;
+}
+
+/* universal selector: means all * margin and paddin 0*/
+*{
+    margin:0;
+    padding: 0;
+}
+
+/* pseudo Selector :meand goto googal writed it is chage backround in <a> tag*/
+a:visited{
+   color:green;
+}
+
+/*a:link means je link me haji mokali nathi pan mokalish to eno color change thashe*/
+
+a:link{
+    color:brown;
+}
